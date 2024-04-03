@@ -1,11 +1,11 @@
+import React from "react";
 import ProductCards from "./components/cards";
-
-function App() {
+const App: React.FC = () => {
   return (
-    <>
-      <ProductCards />
-    </>
+    <div className="App">
+      <ProductCards/>
+    </div>
   );
-}
+};
 
 export default App;
